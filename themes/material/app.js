@@ -794,7 +794,7 @@ function file_video(path) {
 	<br>${playBtn}
 	<!-- 固定标签 -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">下载地址</label>
+	  <label class="mdui-textfield-label">下载地址(${decodeURI(path.split('/').pop())})</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
