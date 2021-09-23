@@ -665,6 +665,8 @@ function get_file(path, file, callback) {
 // 文件展示 ?a=view
 function file(path) {
   var name = path.split('/').pop();
+	console.log(path)
+	console.log(name)
   var ext = name.split('.').pop().toLowerCase().replace(`?a=view`, "").toLowerCase();
   if ("|html|php|css|go|java|js|json|txt|sh|md|".indexOf(`|${ext}|`) >= 0) {
     return file_code(path);
@@ -753,6 +755,7 @@ function copyToClipboard(str) {
 // 文件展示 视频 |mp4|webm|avi|
 function file_video(path) {
   const url = window.location.origin + path;
+	console.log(url)
   let player_items = [
     {
       text: 'MXPlayer(Free)',
