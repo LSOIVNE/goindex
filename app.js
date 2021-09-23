@@ -781,7 +781,7 @@ function file_video(path) {
                    <li class="mdui-menu-item"><a id="copy-link" class="mdui-ripple">复制链接</a></li>`;
   const playBtn = `
       <button class="mdui-btn mdui-ripple mdui-color-theme-accent" mdui-menu="{target:'#player-items'}">
-        <i class="mdui-icon material-icons">&#xe039;</i>外部播放器播放<i class="mdui-icon material-icons">&#xe5cf;</i>
+        <i class="mdui-icon material-icons">&#xe039;</i>外部播放器播放4567<i class="mdui-icon material-icons">&#xe5cf;</i>
       </button>
       <ul class="mdui-menu" id="player-items">${player_items}</ul>`;
 
